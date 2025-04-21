@@ -1,0 +1,13 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: gray;
+  }
+
+ul {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
