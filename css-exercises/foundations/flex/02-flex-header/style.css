@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header  {
+font-family: monospace;
+background: papayawhip;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex: 1 1 1;
+}
+ 
+.logo {
+font-size: 48px;
+font-weight: 900;
+color: tomato;
+background: white;
+padding: 4px 32px;
+}
+
+ul {
+/* this removes the dots on thlist items*/
+list-style-type: none;
+display: flex;
+border: 222px; 
+}
+
+a {
+font-size: 22px;
+background: white;
+padding: 8px;
+/* this removes the line undethe links */
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 22px;
+margin: 8px;
+}
+
+
+
